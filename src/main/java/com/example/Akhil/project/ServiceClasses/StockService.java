@@ -1,6 +1,7 @@
 package com.example.Akhil.project.ServiceClasses;
 
-import com.stport.spm.DTOClasses.StocksDTO;
+
+import com.example.Akhil.project.DTOClasses.StocksDTO;
 
 public interface StockService {
     StocksDTO addStocks(StocksDTO stocksDTO);

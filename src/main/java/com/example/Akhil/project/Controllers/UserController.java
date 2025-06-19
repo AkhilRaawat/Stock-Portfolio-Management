@@ -1,7 +1,6 @@
-package com.stport.spm.Controllers;
-
-import com.stport.spm.DTOClasses.UserDTO;
-import com.stport.spm.ServiceClasses.UserService;
+package com.example.Akhil.project.Controllers;
+import com.example.Akhil.project.DTOClasses.UserDTO;
+import com.example.Akhil.project.ServiceClasses.UserService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -1,7 +1,7 @@
-package com.stport.spm.Controllers;
+package com.example.Akhil.project.Controllers;
 
-import com.stport.spm.DTOClasses.TransactionDTO;
-import com.stport.spm.ServiceClasses.TransactionService;
+import com.example.Akhil.project.DTOClasses.TransactionDTO;
+import com.example.Akhil.project.ServiceClasses.TransactionService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

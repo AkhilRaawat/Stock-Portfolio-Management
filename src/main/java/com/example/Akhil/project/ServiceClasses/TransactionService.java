@@ -1,6 +1,6 @@
 package com.example.Akhil.project.ServiceClasses;
 
-import com.stport.spm.DTOClasses.TransactionDTO;
+import com.example.Akhil.project.DTOClasses.TransactionDTO;
 
 public interface TransactionService {
     TransactionDTO addTransaction(TransactionDTO transactionDTO);

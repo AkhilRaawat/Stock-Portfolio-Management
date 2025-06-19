@@ -25,6 +25,4 @@ public class Portfolio {
     @ManyToMany(mappedBy = "portfolios")
     private List<Stocks> stocks;
 
-    public void setUser(List<User> user) {
-    }
 }

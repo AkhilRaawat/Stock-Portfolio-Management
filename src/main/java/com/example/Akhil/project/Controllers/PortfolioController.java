@@ -34,7 +34,7 @@ public class PortfolioController {
 
     @PutMapping("{portfolio_id}")
     public ResponseEntity<PortfolioDTO> updatePortfolio(@PathVariable Integer portfolio_id, @RequestBody PortfolioDTO portfolioDTO) {
-        PortfolioDTO updatedPortfolio = portfolioService.updatePortfolio(portfolio_id, PortfolioDTO);
+        PortfolioDTO updatedPortfolio = portfolioService.updatePortfolio(portfolio_id, portfolioDTO);
         return new ResponseEntity<>(updatedPortfolio, HttpStatus.OK);
     }
 
