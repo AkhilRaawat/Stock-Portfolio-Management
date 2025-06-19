@@ -1,6 +1,6 @@
-package com.stport.spm.DTOClasses;
+package com.example.Akhil.project.DTOClasses;
 
-import com.stport.spm.Tables.User;
+import com.example.Akhil.project.Tables.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,7 +1,7 @@
-package com.stport.spm.Controllers;
+package com.example.Akhil.project.Controllers;
 
-import com.stport.spm.DTOClasses.PortfolioDTO;
-import com.stport.spm.ServiceClasses.PortfolioService;
+import com.example.Akhil.project.DTOClasses.PortfolioDTO;
+import com.example.Akhil.project.ServiceClasses.PortfolioService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -34,7 +34,7 @@ public class PortfolioController {
 
     @PutMapping("{portfolio_id}")
     public ResponseEntity<PortfolioDTO> updatePortfolio(@PathVariable Integer portfolio_id, @RequestBody PortfolioDTO portfolioDTO) {
-        PortfolioDTO updatedPortfolio = portfolioService.updatePortfolio(portfolio_id, portfolioDTO);
+        PortfolioDTO updatedPortfolio = portfolioService.updatePortfolio(portfolio_id, PortfolioDTO);
         return new ResponseEntity<>(updatedPortfolio, HttpStatus.OK);
     }
 

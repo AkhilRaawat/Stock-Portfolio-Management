@@ -1,4 +1,4 @@
-package com.stport.spm.Tables;
+package com.example.Akhil.project.Tables;
 
 import jakarta.persistence.*;
 import lombok.Data;

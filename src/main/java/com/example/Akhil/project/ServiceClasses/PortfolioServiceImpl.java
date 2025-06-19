@@ -1,8 +1,8 @@
-package com.stport.spm.ServiceClasses;
+package com.example.Akhil.project.ServiceClasses;
 
-import com.stport.spm.DTOClasses.PortfolioDTO;
-import com.stport.spm.Tables.Portfolio;
-import com.stport.spm.Tables.PortfolioRepo;
+import com.example.Akhil.project.DTOClasses.PortfolioDTO;
+import com.example.Akhil.project.Tables.Portfolio;
+import com.example.Akhil.project.Tables.PortfolioRepo;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

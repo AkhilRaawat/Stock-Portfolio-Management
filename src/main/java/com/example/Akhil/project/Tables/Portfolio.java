@@ -1,7 +1,9 @@
-package com.stport.spm.Tables;
+package com.example.Akhil.project.Tables;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import com.example.Akhil.project.Tables.User;
+import com.example.Akhil.project.Tables.Stocks;
 
 import java.util.List;
 
@@ -22,5 +24,7 @@ public class Portfolio {
     private List<User> user;
     @ManyToMany(mappedBy = "portfolios")
     private List<Stocks> stocks;
-    
+
+    public void setUser(List<User> user) {
+    }
 }

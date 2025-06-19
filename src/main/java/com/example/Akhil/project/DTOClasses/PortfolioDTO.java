@@ -1,7 +1,6 @@
-package com.stport.spm.DTOClasses;
+package com.example.Akhil.project.DTOClasses;
 
-import com.stport.spm.Tables.Stocks;
-import com.stport.spm.Tables.User;
+import com.example.Akhil.project.Tables.Portfolio;
 import lombok.*;
 
 import java.util.List;
