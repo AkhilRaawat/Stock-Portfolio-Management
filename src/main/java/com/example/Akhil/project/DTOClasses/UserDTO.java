@@ -1,8 +1,8 @@
-package com.stport.spm.DTOClasses;
+package com.example.Akhil.project.DTOClasses;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.stport.spm.Tables.Portfolio;
-import com.stport.spm.Tables.Transaction;
+import com.example.Akhil.project.Tables.Portfolio;
+import com.example.Akhil.project.Tables.Transaction;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

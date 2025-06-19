@@ -1,8 +1,8 @@
-package com.stport.spm.ServiceClasses;
+package com.example.Akhil.project.ServiceClasses;
 
-import com.stport.spm.DTOClasses.TransactionDTO;
-import com.stport.spm.Tables.TransactionRepo;
-import com.stport.spm.Tables.Transaction;
+import com.example.Akhil.project.DTOClasses.TransactionDTO;
+import com.example.Akhil.project.Tables.TransactionRepo;
+import com.example.Akhil.project.Tables.Transaction;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

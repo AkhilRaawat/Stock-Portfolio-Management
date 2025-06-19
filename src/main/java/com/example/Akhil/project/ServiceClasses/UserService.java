@@ -1,6 +1,6 @@
-package com.stport.spm.ServiceClasses;
+package com.example.Akhil.project.ServiceClasses;
 
-import com.stport.spm.DTOClasses.UserDTO;
+import com.example.Akhil.project.DTOClasses.UserDTO;
 
 public interface UserService {
     UserDTO addUser(UserDTO userDTO);

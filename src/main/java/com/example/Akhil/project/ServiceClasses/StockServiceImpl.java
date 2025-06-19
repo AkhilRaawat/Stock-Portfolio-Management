@@ -1,8 +1,8 @@
-package com.stport.spm.ServiceClasses;
+package com.example.Akhil.project.ServiceClasses;
 
-import com.stport.spm.DTOClasses.StocksDTO;
-import com.stport.spm.Tables.Stocks;
-import com.stport.spm.Tables.StocksRepo;
+import com.example.Akhil.project.DTOClasses.StocksDTO;
+import com.example.Akhil.project.Tables.Stocks;
+import com.example.Akhil.project.Tables.StocksRepo;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

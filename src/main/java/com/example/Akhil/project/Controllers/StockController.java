@@ -1,7 +1,7 @@
-package com.stport.spm.Controllers;
+package com.example.Akhil.project.Controllers;
 
-import com.stport.spm.DTOClasses.StocksDTO;
-import com.stport.spm.ServiceClasses.StockService;
+import com.example.Akhil.project.DTOClasses.StocksDTO;
+import com.example.Akhil.project.ServiceClasses.StockService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
