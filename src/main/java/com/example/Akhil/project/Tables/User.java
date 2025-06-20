@@ -16,11 +16,11 @@ public class User {
     private String username;
     private String email;
     private String password;
-    
+
     @CreationTimestamp
     @Column(updatable = false)
     private Timestamp createdAt;
-    
+
     @ManyToOne
     private Portfolio portfolio;
     @ManyToOne
