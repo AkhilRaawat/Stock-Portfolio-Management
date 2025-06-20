@@ -1,4 +1,5 @@
 package com.example.Akhil.project.Controllers;
+
 import com.example.Akhil.project.DTOClasses.UserDTO;
 import com.example.Akhil.project.ServiceClasses.UserService;
 import lombok.AllArgsConstructor;
@@ -27,22 +28,20 @@ public class UserController {
     }
 
     @GetMapping("{user_id}")
-    public ResponseEntity<UserDTO> getUser(Integer user_id) {
+    public ResponseEntity<UserDTO> getUser(@PathVariable Integer user_id) {
         UserDTO userDTO = userService.getUser(user_id);
         return new ResponseEntity<>(userDTO, HttpStatus.OK);
     }
 
     @PutMapping("{user_id}")
-    public ResponseEntity<UserDTO> updateUser(Integer user_id, UserDTO userDTO) {
+    public ResponseEntity<UserDTO> updateUser(@PathVariable Integer user_id, @RequestBody UserDTO userDTO) {
         UserDTO updatedUser = userService.updateUser(user_id, userDTO);
         return new ResponseEntity<>(updatedUser, HttpStatus.OK);
     }
 
     @DeleteMapping("{user_id}")
-    public ResponseEntity<String> deleteUser(Integer user_id) {
+    public ResponseEntity<String> deleteUser(@PathVariable Integer user_id) {
         String msg = userService.deleteUser(user_id);
         return new ResponseEntity<>(msg, HttpStatus.OK);
     }
-
-
 }
